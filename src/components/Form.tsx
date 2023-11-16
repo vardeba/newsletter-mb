@@ -2,6 +2,8 @@ import { useState, FormEvent } from "react";
 import { User } from "../types/user";
 import { validate } from "../utils/validate";
 
+// Verificar os erros do Typescript
+
 const Form = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
